@@ -1,0 +1,8 @@
+
+spring:
+  application:
+    name: RestCinemaService
+
+kinopoisk:
+  base-url: "https://api.kinopoisk.dev/v1.4/movie"
+  token: "B405J3R-VH84YRJ-NJQNMB2-TJ7WCPJ"
