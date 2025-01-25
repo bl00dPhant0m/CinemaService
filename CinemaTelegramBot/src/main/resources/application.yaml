@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: CinemaTelegramBot
+
+
+  datasource:
+    username:
+    password:
+    url: jdbc:postgresql://localhost:5432/tg_db
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8081
+
+telegram:
+  bot-name: kinos_java_bot
+  token:
+
+
